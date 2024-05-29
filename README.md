@@ -1,5 +1,5 @@
 # AdSDK-Kotlin
-基于 Vungle's iOS SDK的逆向代码
+基于 Vungle's Android Kotlin SDK的逆向代码
 
 -----
 
