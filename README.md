@@ -4,6 +4,8 @@
 AdSDK 基于Kotlin 研发的一套高性能，高适配性，高扩展性，兼容iOS的广告移动平台SDK
 
 
+Vungle Android SDK代码架构非常厉害，适合Android开发好好学习，里面的整理架构和代码设计非常值得借鉴。虽然这个app最终是为Slots服务，但是属于大材小用，虽然对kotlin有兴趣的人可以好好学习。
+
 #
 [![Version](https://img.shields.io/cocoapods/v/VungleAds.svg?style=flat)](http://cocoapods.org/pods/VungleAds)
 [![License](https://img.shields.io/cocoapods/l/VungleAds.svg?style=flat)](http://cocoapods.org/pods/VungleAds)
@@ -38,3 +40,5 @@ Explore the [Vungle Android SDK Documentation](https://support.vungle.com/hc/en-
  ## kotlin codes
 
  ![](Images/15-25-59.png)
+
+
