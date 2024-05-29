@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.test.adsdk_demo.test.app-mergeDebugAndroidTestResources-32:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\b1fdbd6c12a29475fce917f402636199\\transformed\\core-1.5.0\\res\\values-v28\\values.xml",
+                    "from": {
+                        "startLines": "4,13",
+                        "startColumns": "0,0",
+                        "startOffsets": "180,659",
+                        "endLines": "12,21",
+                        "endColumns": "8,8",
+                        "endOffsets": "658,1135"
+                    },
+                    "to": {
+                        "startLines": "2,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,538",
+                        "endLines": "10,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "533,1014"
+                    }
+                }
+            ]
+        }
+    ]
+}

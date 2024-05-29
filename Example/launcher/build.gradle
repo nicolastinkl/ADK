@@ -1,0 +1,87 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.5.21'
+
+}
+apply plugin: 'com.android.application'
+//apply plugin: 'kotlin'
+
+dependencies {
+    implementation project(':unityLibrary')
+    }
+
+android {
+    ndkPath "E:/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
+
+    compileSdkVersion 34
+    buildToolsVersion '34.0.0'
+
+    compileOptions {
+
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 34
+        applicationId 'com.luckysuper.leopard.casino.slot77711'
+        ndk {
+            abiFilters 'arm64-v8a'
+        }
+        versionCode 222
+        versionName '2.1'
+    }
+
+    aaptOptions {
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }
+
+    
+    signingConfigs {
+        release {
+            storeFile file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('e:/PublicProject/Vungleads7.1.0/6/Key/elephant.keystore')  //file('D:\\W\\11-21\\10\\drive-download-20231121T055011Z-001\\Fortune Tiger Diminos\\1\\Key\\kidssimstudio.keystore')
+            storePassword 'bee321'
+            keyAlias 'beeslot'
+            keyPassword 'bee321'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            signingConfig signingConfigs.release
+            jniDebuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            signingConfig signingConfigs.release
+        }
+    }
+
+    packagingOptions {
+        doNotStrip '*/arm64-v8a/*.so'
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+        density {
+            enableSplit = false
+        }
+        abi {
+            enableSplit = true
+        }
+    }
+}
