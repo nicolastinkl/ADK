@@ -24,6 +24,7 @@ Explore the [Vungle Android SDK Documentation](https://support.vungle.com/hc/en-
  > unzip  ~\AdSDK-Kotlin\Example\unityLibrary\symbols\arm64-v8a\libil2cpp.zip to libil2cpp.so
  > local network access google.com succesful
  
+ ![](Images/15-41-51.png)
 
  ## App Infomation
  ![](Images/15-15-19.png)
