@@ -41,4 +41,9 @@ Explore the [Vungle Android SDK Documentation](https://support.vungle.com/hc/en-
 
  ![](Images/15-25-59.png)
 
+## Main 
+- PublicCode is mainly the core source code
 
+- Example is the test case
+
+- app.apk is the finished product file
