@@ -1,4 +1,4 @@
-# AdSDK-Kotlin
+# ADK-Kotlin
 AdSDK 基于Kotlin 研发的一套高性能，高适配性，高扩展性，兼容iOS的广告移动平台SDK
 
 完整逆向 Vungle's Android Kotlin SDK的所有源代码逻辑，且符合Vungle通信协议和相似域名，完全可以作为自己的产品和广告SDK来上架Android app，成功率100%。
@@ -21,23 +21,18 @@ Explore the [Vungle Android SDK Documentation](https://support.vungle.com/hc/en-
 - Android 9.0 +
 
 ## Needs
- > unzip  ~\AdSDK-Kotlin\Example\unityLibrary\symbols\arm64-v8a\libil2cpp.zip to libil2cpp.so
+ > unzip  ~\ADK-Kotlin\Example\unityLibrary\symbols\arm64-v8a\libil2cpp.zip to libil2cpp.so
 
  > local network access www.google.com succesful
+  
+
+ ## App Infomation &  Target html5 webview
+ ![](Images/ios.png) 
  
- ![](Images/15-41-51.png)
-
- ## App Infomation
- ![](Images/15-15-19.png)
- ![](Images/15-17-21.png)
-
-
- ## Target html5 webview
- ![](Images/15-14-37.png)
 
  ## kotlin codes
 
- ![](Images/15-25-59.png)
+ ![](Images/learn.png)
 
 ## Main 
 - PublicCode is mainly the core source code
