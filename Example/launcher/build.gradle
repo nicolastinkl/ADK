@@ -44,10 +44,10 @@ android {
     
     signingConfigs {
         release {
-            storeFile file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('e:/PublicProject/Vungleads7.1.0/6/Key/elephant.keystore')  //file('D:\\W\\11-21\\10\\drive-download-20231121T055011Z-001\\Fortune Tiger Diminos\\1\\Key\\kidssimstudio.keystore')
-            storePassword 'bee321'
+            storeFile file('/Users/mac/Documents/GitHub/ADK/Example/Key/mykey15.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('f:/Project/12-13/389-2/Fortune Merge Horse/1/Key/BeeSlotKeystore.keystore')  //file('e:/PublicProject/Vungleads7.1.0/6/Key/elephant.keystore')  //file('D:\\W\\11-21\\10\\drive-download-20231121T055011Z-001\\Fortune Tiger Diminos\\1\\Key\\kidssimstudio.keystore')
+            storePassword '123456'
             keyAlias 'beeslot'
-            keyPassword 'bee321'
+            keyPassword '123456'
         }
     }
 
