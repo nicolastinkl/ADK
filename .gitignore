@@ -26,3 +26,4 @@ replay_pid*
 /Example/.idea
 /Example/.gradle/7.4
 *.lock
+/Example/launcher/build
